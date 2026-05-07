@@ -1,131 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Read Students</title>
+    <title>Read Students</title>
 
-  <style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 30px;
+        }
 
-    body{
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 30px;
-    }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
 
-    h1{
-      text-align: center;
-      color: #333;
-    }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-    table{
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-      background: white;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
+        th {
+            background: #2563eb;
+            color: white;
+            padding: 12px;
+        }
 
-    th{
-      background: #2563eb;
-      color: white;
-      padding: 12px;
-    }
+        td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
 
-    td{
-      padding: 12px;
-      text-align: center;
-      border-bottom: 1px solid #ddd;
-    }
+        tr:hover {
+            background: #f1f5f9;
+        }
 
-    tr:hover{
-      background: #f1f5f9;
-    }
+        .btn {
+            padding: 6px 12px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
 
-    .btn{
-      padding: 6px 12px;
-      border: none;
-      color: white;
-      cursor: pointer;
-      border-radius: 5px;
-    }
+        .view {
+            background: #0ea5e9;
+        }
 
-    .view{
-      background: #0ea5e9;
-    }
+        .edit {
+            background: #f59e0b;
+        }
 
-    .edit{
-      background: #f59e0b;
-    }
-
-    .delete{
-      background: #ef4444;
-    }
-
-  </style>
+        .delete {
+            background: #ef4444;
+        }
+    </style>
 
 </head>
 
 <body>
 
-  <h1>Student Table</h1>
+    <h1>Student Table</h1>
 
-  <table>
+    <table>
 
-    <tr>
-      <th>ID</th>
-      <th>Name</th>
-      <th>Gender</th>
-      <th>Email</th>
-      <th>Course</th>
-      <th>Action</th>
-    </tr>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Email</th>
+            <th>Course</th>
+            <th>Action</th>
+        </tr>
 
-    <tr>
-      <td>101</td>
-      <td>John Smith</td>
-      <td>Male</td>
-      <td>john@gmail.com</td>
-      <td>Computer Science</td>
+        <tr>
+            <td>101</td>
+            <td>John Smith</td>
+            <td>Male</td>
+            <td>john@gmail.com</td>
+            <td>Computer Science</td>
 
-      <td>
-        <button class="btn view">View</button>
-        <button class="btn edit">Edit</button>
-        <button class="btn delete">Delete</button>
-      </td>
-    </tr>
+            <td>
+                <button class="btn view">View</button>
+                <button class="btn edit">Edit</button>
+                <button class="btn delete">Delete</button>
+            </td>
+        </tr>
 
-    <tr>
-      <td>102</td>
-      <td>Emma Watson</td>
-      <td>Female</td>
-      <td>emma@gmail.com</td>
-      <td>Information Technology</td>
+        <tr>
+            <td>102</td>
+            <td>Emma Watson</td>
+            <td>Female</td>
+            <td>emma@gmail.com</td>
+            <td>Information Technology</td>
 
-      <td>
-        <button class="btn view">View</button>
-        <button class="btn edit">Edit</button>
-        <button class="btn delete">Delete</button>
-      </td>
-    </tr>
+            <td>
+                <button class="btn view">View</button>
+                <button class="btn edit">Edit</button>
+                <button class="btn delete">Delete</button>
+            </td>
+        </tr>
 
-    <tr>
-      <td>103</td>
-      <td>David Lee</td>
-      <td>Male</td>
-      <td>david@gmail.com</td>
-      <td>Business Management</td>
+        <tr>
+            <td>103</td>
+            <td>David Lee</td>
+            <td>Male</td>
+            <td>david@gmail.com</td>
+            <td>Business Management</td>
 
-      <td>
-        <button class="btn view">View</button>
-        <button class="btn edit">Edit</button>
-        <button class="btn delete">Delete</button>
-      </td>
-    </tr>
+            <td>
+                <button class="btn view">View</button>
+                <button class="btn edit">Edit</button>
+                <button class="btn delete">Delete</button>
+            </td>
+        </tr>
 
-  </table>
+    </table>
 
 </body>
+
 </html>
